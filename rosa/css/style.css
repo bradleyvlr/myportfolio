@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Asul|Germania+One');
+
+body {
+  background-image:url("https://bradroderick.us/RedSquareBG.jpg");
+  background-attachment:fixed;
+  font-family:Asul, sans-serif;
+}
+a {
+  color:#aaa;
+}
+a:hover{
+  color:red;
+}
+.title {
+  text-align: center;
+  color: black;
+  font-family: 'Germania One', cursive;
+  text-shadow: 1px 1px 2px white;
+  font-size: 40px;
+}
+.subtitle {
+  text-align:center;
+  color:white;
+  text-shadow:1px 1px 2px black
+}
+.holder {
+  padding:10px;
+}
+.timeline {
+  background-color:rgb(0,0,0,0.4);
+  color:white;
+  border:2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+.bibliography {
+  background-color:rgb(0,0,0,0.4);
+  color:white;
+  border:2px solid black;
+  border-radius: 20px;
+  padding:10px;
+}
+img {
+  display:block;
+  border:2px solid black;
+  border-radius:20px;
+  margin:auto;
+  width:85%;
+  max-width:800px;
+  
+}
+
+.footer {
+  height:70px;
+  margin-top:100px;
+  background-color:black;
+  padding:10px;
+}
