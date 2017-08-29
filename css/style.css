@@ -1,0 +1,242 @@
+/*Fonts and Things*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Slabo+27px');
+.domtest {
+  border:0.5px solid black;
+}
+a {
+  padding:0px;
+  margin:0px;
+}
+a:hover {
+  text-decoration:none;
+}
+/*Home Slide*/
+#homeslide{
+  min-height:650px;
+  background-color:green;
+  background-image:url("https://bradroderick.us/bballcourt.jpg");
+  background-size:fill;
+  background-attachment:fixed;
+  background-position:left;
+  background-repeat:no-repeat;
+}
+.title{
+  padding-top:75px;
+  color:white;
+  text-shadow: 1px 1px gray;
+  font-family: Comfortaa,sans-serif;
+}
+.subtitle{
+  color:#aaaaaa;
+  font-family: Comfortaa,sans-serif;
+}
+
+.introtext{
+  color:white;
+  font-family:Comfortaa;
+  padding-bottom:75px;
+}
+.linkCont{
+  display: block;
+  margin: auto;
+  text-align:center;
+  margin-top:55px;
+  margin-bottom:55px;
+}
+
+.mybtn {
+  padding:5px 15px 5px 15px;
+  border-radius:10px;
+  background-color:rgb(222,222,222,0.8);
+  color:black;
+  text-shadow:1px 1px blue;
+  font-family:Comfortaa,sans-serif;
+  
+}
+.mybtn:hover{
+  background-color:white;
+  text-shadow:1px 1px orange;
+}
+.introtext {
+  padding-top:70px;
+  padding-bottom:90px;
+}
+.yoursTrulybox {
+  height:300px;
+}
+.yoursTruly {
+  background-color:;
+  background-image:url( "https://bradroderick.us/yourstruly.jpg");
+  background-size: auto 100%;
+  border-radius:50%;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:250px;
+  width:250px;
+}
+
+
+
+/*About Slide*/
+.intro{
+  padding-top:50px;
+  padding-bottom:20px;
+  display:block;
+  background-color:black;
+  color:white;
+  margin-top:-20px;
+  font-family:Comfortaa,sans-serif;
+}
+.abouttext{
+  
+  border-radius: 50px;
+  
+  background-color:rgb(55,55,55,0.5);
+  
+  color:#dfffff;
+  font-family:"Slabo 27px";
+  font-size:.75em;
+  padding:10px;
+}
+
+
+#aboutslide{
+  background-color:#faa;
+  background-image:url("https://bradroderick.us/sovietcomputers.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.compbox{
+  padding-bottom:25px;
+}
+.compline {
+  font-size:2em;
+  font-family: Comfortaa, sans-serif;
+}
+
+.compwin {
+  padding:15px;
+  text-align:center;
+}
+
+/*Portfolio Slide*/
+#portslide{
+  margin-top:-20px;
+  background-color: #afa;
+  background-image:url("https://bradroderick.us/metropolis.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+  
+}
+
+.portbox {
+  margin-top:15px;
+  margin-bottom:25px;
+  padding-right:0px;
+  padding-left:0px;
+  padding-bottom:15px;
+  text-align: center;
+}
+.portentry {
+  width:90%;
+  max-width: 300px;
+  min-width:220px;
+  height:450px;
+  margin:auto;
+  border-radius:50px;
+  background-color:black;
+  background-position:top;
+  background-repeat:no-repeat;
+  color:white;
+  font-family:'Slabo+27px',serif;
+}
+
+.portentry:hover {
+  text-decoration:bold;
+  color:#446785;
+}
+
+.lfcsa {
+  background-image:url('https://bradroderick.us/portlfcsa.jpg')
+}
+
+.redhat {
+  background-image:url('https://bradroderick.us/portredhat.jpg');
+  background-size:100% 225px;
+}
+.python {
+  background-image:url('https://bradroderick.us/portpython.jpg');
+}
+
+.rosa {
+  background-image:url('https://bradroderick.us/portrosa.jpg')
+}
+
+.foodbert {
+  background-image:url('https://bradroderick.us/portfoodbert.jpg');
+}
+.porttext {
+  background-color:black;
+  margin-top:225px;
+  height:175px;
+  padding: 15px;
+}
+
+/*Contact Slide*/
+#contactslide{
+  height:600px;
+  background-image:url("https://bradroderick.us/OwlBG.jpg");
+  background-color: #aaf;
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:top;
+  background-repeat:no-repeat;
+}
+.email {
+  text-align:center;
+  margin-left:25%;
+  width:65%;
+
+}
+#contactform {
+  display:block;
+  width:100%;
+}
+.textbox {
+  display:block;
+  width:100%;
+  margin-top:20px;
+  background-color:rgb(225,225,225,0.1);
+  padding:4px;
+}
+.textbox-big {
+  height:100px;
+  margin-bottom:20px;
+}
+.contacttext {
+  width:80%;
+}
+/*Header and Footer*/
+#myfoot {
+  display:block;
+  width:100%;
+  background-color:rgb(34,34,34);
+  padding: 25px 0px 25px 0px;
+  text-align:center;
+  color:rgb(111,111,255);
+}
+.ulnav li{
+  
+}
+.ulnav li:hover{
+  background-color:#331313;
+  border-radius:25px;
+}
+.menbut{
+  background-color:black;
+}
+
