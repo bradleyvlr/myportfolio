@@ -1,4 +1,4 @@
-[{"id":0,"author":"-Rosa Luxemburg","quote":"Freedom is always exclusively freedom for the one who thinks differently"},
+{"quotes":[{"id":0,"author":"-Rosa Luxemburg","quote":"Freedom is always exclusively freedom for the one who thinks differently"},
 {"id":1,"author":"-Jean-Jacques Rousseau","quote":"Man was born free and he is everywhere in chains."},
 {"id":2,"author":"-Oscar Wilde","quote":"Work is the curse of the drinking class"},
 {"id":3,"author":"-Richard Stallman","quote":"Using vi is not a sin; it is a penance."},
@@ -18,5 +18,4 @@
 {"id":17,"author":"-Steven Wright","quote":"On the other hand... you have different fingers."},
 {"id":18,"author":"-Sergei Eisenstein","quote":"Language is much closer to film than painting is."},
 {"id":19,"author":"-Mikhail Bulgakov","quote":"What would your good do if evil didn't exist, and what would the earth look like if all the shadows disappeared?"},
-{"id":20,"author":"Leon Trotsky","quote":"Life is beautiful. Let future generations cleanse it of all evil and enjoy it to the fullest."}]
-
+{"id":20,"author":"-Leon Trotsky","quote":"Life is beautiful; let future generations cleanse it of all evil and live it to the fullest."}]}
