@@ -13,9 +13,9 @@ a:hover {
 /*Home Slide*/
 #homeslide{
   min-height:650px;
-  background-color:green;
-  background-image:url("https://bradroderick.us/bballcourt.jpg");
-  background-size:fill;
+  background-color:black;
+  background-image:url("bballcourt.jpg");
+  background-size:cover;
   background-attachment:fixed;
   background-position:left;
   background-repeat:no-repeat;
@@ -91,7 +91,8 @@ a:hover {
   
   border-radius: 50px;
   
-  background-color:rgb(55,55,55,0.5);
+  background-color:rgb(55,55,55);
+  opacity:0.5;
   
   color:#dfffff;
   font-family:"Slabo 27px";
