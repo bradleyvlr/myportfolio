@@ -172,6 +172,12 @@ a:hover {
 .python {
   background-image:url('https://bradroderick.us/portpython.jpg');
 }
+.quoteMachine {
+
+	background-image:url('/css/quoteBG.png');
+}
+
+	
 
 .rosa {
   background-image:url('https://bradroderick.us/portrosa.jpg')

@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var previousColor = -2;
-	var colors = ["#345","#593","#841","#d29","#54a","#1f3","c30","#4d4d00"];
+	var colors = ["#345","#593","#841","#d29","#54a","#1f3","#c30","#4d4d00"];
 	var currentQuote="";
 	var currentAuthor="";
 	$(".newQuote").on("click", function(){
@@ -17,7 +17,8 @@ $(document).ready(function(){
 			$("#authorGoesHere").html(currentAuthor);
 			$("#quoteGoesHere").html('"' + currentQuote + '"');
 			document.getElementById("tweetme").setAttribute("href","https://twitter.com/intent/tweet?" + encodeURIComponent('"' + currentQuote + '  "' + currentAuthor));
-			$("body").animate({backgroundColor:colors[colorCode]},"slow");
+			var bgColor = (colors[colorCode]);
+			$("body").animate({backgroundColor:bgColor});
 			$("button").animate({backgroundColor:colors[colorCode]},"slow");
 			$("a").animate({backgroundColor:colors[colorCode]},"slow");
 			$("p").animate({color:colors[colorCode]},"slow");
