@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/pomo.css">
+
+  
+</head>
+
+<body>
+  <div class="bigBox container">
+  <div class="col-xs-6">
+    <button id="plus" onClick="addMinute()">+</button>
+    <button id="minus" onClick="minusMinute()">-</button>
+    <p class="label">Work Time</p>
+
+    <p class="times" id="workMin">25</p>
+  </div>
+<div class="col-xs-6">
+    <button id="bplus" onClick="plusBreak()">+</button>
+    <button id="bmin" onClick="minusBreak()">-</button>
+    <p class="label">Work Time</p>
+    <p class="times" id="breakMin">5</p>
+  </div>
+  <div class="col-xs-12"><h1 id="Timer" onClick="toggleTimer()">25:00</h1></div>
+</div>
+<h2 class='title'>Orologio di pomodoro per il lavoro</h2>
+<div class="footer">
+  <p class="feet">By: Bradley Roderick</p>
+  <p class="feet">Powered By CentOS</p>
+  
+</div>
+  
+    <script  src="js/pomo.js"></script>
+
+</body>
+</html>

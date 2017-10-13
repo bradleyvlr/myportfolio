@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Modak');
+body {
+  background-color:antiquewhite;
+}
+button{
+  background-color:midnightblue;
+  color:antiquewhite;
+  font-family:Monospace;
+  padding:5px 10px 5px 10px;
+  border-radius:10px;
+}
+button:active{
+  border:none;
+}
+.bigBox {
+  margin-top:50px;
+  text-align: center;
+}
+.label {
+  display:block;
+  font-size:20px;
+  color:tomato;
+  
+}
+.times {
+  margin-top:-15px;
+  font-size:50px;
+  font-family:Modak;
+  color:olivedrab;
+  
+}
+#Timer {
+  width:150px;
+  height:150px;
+  font-family:Modak;
+  padding-top:54px;
+  border-radius:50%;
+  background-color:tomato;
+  border: 2px solid olivedrab;
+  margin:auto;
+  box-shadow:6px 6px 15px;
+}
+#Timer:hover {
+  cursor:pointer;
+  opacity:0.9;
+}
+.title{
+  font-family:'Lobster Two',cursive;
+  font-size:40px;
+  color:tomato;
+  text-align:center;
+}
+.footer{
+  margin-top:40px;
+  height:80px;
+  background-color:darkslategray;
+  text-align:center;
+  color:antiquewhite;
+  padding-top:8px;
+}
