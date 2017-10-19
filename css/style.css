@@ -178,7 +178,10 @@ a:hover {
 }
 
 	
-
+.tictac {
+	background-image:url('/tictactoeBG.png');
+.rosa {
+	background-image:url('/portrosa.jpg');
 .pomo {
   background-image:url('http://photos.gograph.com/thumbs/CSP/CSP799/k7991617.jpg')
 }
