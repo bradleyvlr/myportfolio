@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/tictac.css">
+
+  
+</head>
+
+<body>
+  <div class="messageSpace">
+  <h6 id="message"></h6>
+  <div id="restart"></div>
+  <div id="letterPick"><h6>Choose Your Weapon</h6><button id="X" onClick="pickX()">X</button><button id="O" onClick="pickO()">O</button>
+  </div>
+  <div id="difficulty"><h6>Select Difficulty</h6><button id="easy" onClick="pickEasy()">Easy</button><button id="medium" onClick="pickMedium()">Medium</button><button id="hard" onClick="pickHard()">Hard</button>
+  </div>
+</div>
+<div class="board">
+  <div class="scoreContainer">
+    <p id="scores">CPU: 0 // Human: 0</p>
+  </div>
+  <div class="gameSpace">
+    <table>
+      <tr>
+        <td id="lt" onClick="move(this)" class="left top"></td>
+        <td id="ct" onClick="move(this)" class="top"></td>
+    
+        <td id="rt" onClick="move(this)" class="right top"></td>
+      </tr>
+      <tr>
+        <td id="lm" onClick="move(this)" class="left"></td>
+        <td id="cm" onClick="move(this)" ></td>
+        <td id="rm" onClick="move(this)" class="right"></td>
+      </tr>
+      <tr>
+        <td id="lb" onClick="move(this)" class="left bottom"></td>
+        <td id="cb" onClick="move(this)" class="center bottom"></td>
+        <td id="rb" onClick="move(this)" class="bottom right"></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="footer">
+  <p>Coded By: Bradley Roderick</p>
+  <p>Powered By: CentOS</p>
+</div>
+  
+    <script  src="js/tictac.js"></script>
+
+</body>
+</html>
