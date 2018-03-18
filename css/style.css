@@ -66,7 +66,7 @@ a:hover {
 }
 .yoursTruly {
   background-color:;
-  background-image:url( "https://bradroderick.us/yourstruly.jpg");
+  background-image:url( "https://bradleyroderick.com/yourstruly.jpg");
   background-size: auto 100%;
   border-radius:50%;
   background-position:center;
@@ -103,7 +103,7 @@ a:hover {
 
 #aboutslide{
   background-color:#faa;
-  background-image:url("https://bradroderick.us/sovietcomputers.jpg");
+  background-image:url("https://bradleyroderick.us/sovietcomputers.jpg");
   background-size:cover;
   background-attachment:fixed;
   background-position:center;
@@ -126,7 +126,7 @@ a:hover {
 #portslide{
   margin-top:-20px;
   background-color: #afa;
-  background-image:url("https://bradroderick.us/metropolis.jpg");
+  background-image:url("https://bradleyroderick.com/metropolis.jpg");
   background-size:cover;
   background-attachment:fixed;
   background-position:center;
@@ -162,15 +162,15 @@ a:hover {
 }
 
 .lfcsa {
-  background-image:url('https://bradroderick.us/portlfcsa.jpg')
+  background-image:url('https://bradleyroderick.com/portlfcsa.jpg')
 }
 
 .redhat {
-  background-image:url('https://bradroderick.us/portredhat.jpg');
+  background-image:url('https://bradleyroderick.com/portredhat.jpg');
   background-size:100% 225px;
 }
 .python {
-  background-image:url('https://bradroderick.us/portpython.jpg');
+  background-image:url('https://bradleyroderick.com/portpython.jpg');
 }
 .quoteMachine {
 
@@ -189,7 +189,7 @@ a:hover {
 }
 
 .foodbert {
-  background-image:url('https://bradroderick.us/portfoodbert.jpg');
+  background-image:url('https://bradleyroderick.com/portfoodbert.jpg');
 }
 .calculator {
 	background-image:url('/calculatorBG.png');
@@ -204,7 +204,7 @@ a:hover {
 /*Contact Slide*/
 #contactslide{
   height:600px;
-  background-image:url("https://bradroderick.us/OwlBG.jpg");
+  background-image:url("https://bradleyroderick.com/OwlBG.jpg");
   background-color: #aaf;
   background-size:cover;
   background-attachment:fixed;
